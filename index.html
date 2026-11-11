@@ -4,88 +4,73 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wellspring Inc. · 주식회사 웰스프링</title>
-<meta name="description" content="Wellspring Inc. (주식회사 웰스프링) is a software company in Yongin, Korea, and the developer of Quotrait, a reading app for saving and replaying lines from books.">
-<style>
-:root { color-scheme: light dark; --bg: #F5F1EA; --card: #FFFDF9; --ink: #1F1D1A; --muted: #6F6A60; --rule: #E2DACD; --accent: #8A6A2F; }
-@media (prefers-color-scheme: dark) { :root { --bg: #151315; --card: #1D1A1D; --ink: #ECE7DD; --muted: #9A948A; --rule: #2E2B2F; --accent: #D2B074; } }
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", "Noto Sans KR", sans-serif; }
-.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
-header { padding: 56px 0 32px; border-bottom: 1px solid var(--rule); }
-.mark { font-weight: 700; letter-spacing: .02em; font-size: 2rem; margin: 0; }
-.mark small { display: block; font-size: 1rem; font-weight: 500; color: var(--muted); letter-spacing: 0; margin-top: 2px; }
-.lead { font-size: 1.1rem; max-width: 640px; margin: 20px 0 0; }
-.lead + .lead { color: var(--muted); font-size: 1rem; margin-top: 6px; }
-section { padding: 40px 0; border-bottom: 1px solid var(--rule); }
-h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent); margin: 0 0 16px; }
-.app { display: grid; gap: 20px; background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 24px; }
-.app h3 { margin: 0; font-size: 1.4rem; }
-.app p { margin: 4px 0; }
-.app ul { margin: 8px 0 0; padding-left: 20px; }
-.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
-.links a { color: var(--ink); text-decoration: none; border: 1px solid var(--rule); border-radius: 999px; padding: 6px 14px; font-size: .92rem; }
-.links a:hover { border-color: var(--accent); }
-dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 20px; margin: 0; }
-dt { color: var(--muted); }
-dd { margin: 0; overflow-wrap: anywhere; }
-.ko { color: var(--muted); font-size: .92rem; }
-a { color: inherit; }
-footer { padding: 28px 0 48px; color: var(--muted); font-size: .85rem; }
-@media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } header { padding-top: 40px; } }
-</style>
+<meta name="description" content="Wellspring Inc. (주식회사 웰스프링) runs Worklum, a shared office in Yongin, Korea, and develops Quotrait, a reading app for saving and replaying lines from books.">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="wrap">
+<header class="top"><div class="wrap">
+  <a class="brand" href="/">Wellspring Inc.<span>주식회사 웰스프링</span></a>
+  <nav class="nav" aria-label="Main"><a href="/" aria-current="page">Home</a><a href="/quotrait/">Quotrait</a><a href="/worklum.html">Worklum</a><a href="/contact.html">Contact</a></nav>
+</div></header>
+<main>
+<div class="wrap hero">
+  <p class="eyebrow">Yongin, Republic of Korea</p>
+  <h1>Spaces and software that help people work and read better.</h1>
+  <p class="lead">Wellspring Inc. is a Korean company that runs <strong>Worklum</strong>, a shared office in Yongin, and builds <strong>Quotrait</strong>, a reading app for web, Android and iOS.</p>
+  <p class="lead ko">주식회사 웰스프링은 용인에서 공유오피스 「워크룸」을 운영하고, 독서 앱 「Quotrait」를 만드는 회사입니다.</p>
+  <div class="hero-img"><img src="/img/hero-1600.webp" alt="Worklum shared office lounge on the 7th floor of Rapa Building, Yongin" width="1600" height="700"></div>
+</div>
 
-<header>
-  <p class="mark">Wellspring Inc.<small>주식회사 웰스프링</small></p>
-  <p class="lead">We build simple, thoughtful software for everyday life and work.</p>
-  <p class="lead">일상과 일을 조금 더 편하게 만드는 소프트웨어를 만듭니다.</p>
-</header>
-
-<section>
-  <h2>Our app · 서비스</h2>
-  <div class="app">
-    <div>
-      <h3>Quotrait</h3>
-      <p>Save the lines you love from books, listen to them again, and share them as cards.</p>
-      <p class="ko">책에서 만난 문장을 사진 한 장으로 저장하고, 다시 듣고, 카드로 나누는 독서 앱입니다.</p>
-      <ul>
-        <li>Photograph a page and pick the lines you want — on-device text recognition</li>
-        <li>Listen to your saved lines again in a clear voice</li>
-        <li>Share a line as a card with a picture drawn for it</li>
-        <li>Export your lines any time as text, Markdown, CSV or JSON</li>
-      </ul>
-      <p class="ko" style="margin-top:10px">Web · Android · iOS</p>
-    </div>
-    <div class="links">
-      <a href="/quotrait/privacy.html">Privacy Policy · 개인정보처리방침</a>
-      <a href="/quotrait/terms.html">Terms of Use · 이용 약관</a>
-    </div>
+<section><div class="wrap">
+  <h2>What we do</h2>
+  <p class="sub">Two businesses, one team, one building in Gugal-dong, Yongin. <span class="ko">하나의 팀이 두 가지 일을 합니다.</span></p>
+  <div class="grid">
+    <article class="card">
+      <div class="pic icon"><img src="/img/quotrait-icon-256.png" alt="Quotrait app icon" width="120" height="120"></div>
+      <div class="body">
+        <h3>Quotrait — reading app</h3>
+        <p>Save the lines you love from books with one photo, listen to them again, and share them as cards.</p>
+        <p class="ko">책 속 문장을 사진으로 저장하고, 다시 듣고, 카드로 나누는 독서 앱.</p>
+        <a class="more" href="/quotrait/">About Quotrait →</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="/img/lounge-7f.webp" alt="Worklum lounge" width="800" height="500" loading="lazy"></div>
+      <div class="body">
+        <h3>Worklum — shared office</h3>
+        <p>Private offices, meeting rooms and registered business addresses for small companies and freelancers in Yongin.</p>
+        <p class="ko">용인 구갈동의 공유오피스·비상주사무실 「워크룸」.</p>
+        <a class="more" href="/worklum.html">About Worklum →</a>
+      </div>
+    </article>
   </div>
-</section>
+</div></section>
 
-<section>
-  <h2>Company · 회사 정보</h2>
-  <dl>
-    <dt>Company</dt><dd>Wellspring Inc. <span class="ko">(주식회사 웰스프링)</span></dd>
+<section><div class="wrap">
+  <h2>Company information</h2>
+  <p class="sub">회사 정보</p>
+  <dl class="facts">
+    <dt>Legal name</dt><dd>Wellspring Inc. <span class="ko">(주식회사 웰스프링)</span></dd>
     <dt>CEO</dt><dd>Ajung Yoo <span class="ko">(대표이사 유아정)</span></dd>
     <dt>Address</dt><dd>602, 6F, Rapa Bldg., 9-1 Gugal-ro 60beon-gil, Giheung-gu, Yongin-si, Gyeonggi-do 16972, Republic of Korea<br><span class="ko">경기도 용인시 기흥구 구갈로60번길 9-1, 라파빌딩 6층 602호 (우 16972)</span></dd>
-    <dt>Business reg. no.</dt><dd>749-81-02704 <span class="ko">(사업자등록번호)</span></dd>
-    <dt>E-commerce reg.</dt><dd>2024-용인기흥-2310 <span class="ko">(통신판매업 신고번호)</span></dd>
+    <dt>Business registration</dt><dd>749-81-02704 <span class="ko">(사업자등록번호)</span></dd>
+    <dt>E-commerce registration</dt><dd>2024-용인기흥-2310 <span class="ko">(통신판매업 신고번호)</span></dd>
     <dt>D-U-N-S</dt><dd>695205392</dd>
+    <dt>Contact</dt><dd><a href="mailto:admin@wellspring.ai.kr">admin@wellspring.ai.kr</a> · <a href="tel:+821097473955">+82 10-9747-3955</a></dd>
   </dl>
-</section>
-
-<section>
-  <h2>Contact · 문의</h2>
-  <dl>
-    <dt>Email</dt><dd><a href="mailto:admin@wellspring.ai.kr">admin@wellspring.ai.kr</a></dd>
-    <dt>Phone</dt><dd><a href="tel:+821097473955">+82 10-9747-3955</a> <span class="ko">(010-9747-3955)</span></dd>
-  </dl>
-</section>
-
-<footer>© 2026 Wellspring Inc. All rights reserved.</footer>
-</div>
+  <div class="btns"><a class="btn primary" href="/contact.html">Contact us</a></div>
+</div></section>
+</main>
+<footer><div class="wrap cols">
+  <div>
+    <p><strong>Wellspring Inc.</strong> (주식회사 웰스프링) · CEO Ajung Yoo (대표이사 유아정)</p>
+    <p>602, 6F, Rapa Bldg., 9-1 Gugal-ro 60beon-gil, Giheung-gu, Yongin-si, Gyeonggi-do 16972, Republic of Korea</p>
+    <p>Business reg. no. 749-81-02704 · E-commerce reg. 2024-용인기흥-2310 · D-U-N-S 695205392</p>
+    <p><a href="mailto:admin@wellspring.ai.kr">admin@wellspring.ai.kr</a> · +82 10-9747-3955</p>
+    <p>© 2026 Wellspring Inc. All rights reserved.</p>
+  </div>
+  <nav aria-label="Legal"><a href="/quotrait/privacy.html">Privacy Policy</a><a href="/quotrait/terms.html">Terms of Use</a></nav>
+</div></footer>
 </body>
 </html>
